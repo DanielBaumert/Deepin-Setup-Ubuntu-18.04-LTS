@@ -27,3 +27,8 @@ sudo gsettings set org.gnome.desktop.default-applications.terminal exec 'deepin-
 ```bash
 sudo apt autoremove
 ```
+# Helpfull feature
+## set time by terminal
+```bash
+sudo cp /usr/share/zoneinfo/Europe/[city] /etc/localtime 
+```
